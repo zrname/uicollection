@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D02BB931F4C27C400E1804E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02BB921F4C27C400E1804E /* main.m */; };
+		2D02BB961F4C27C400E1804E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02BB951F4C27C400E1804E /* AppDelegate.m */; };
+		2D02BB991F4C27C400E1804E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02BB981F4C27C400E1804E /* ViewController.m */; };
+		2D02BB9C1F4C27C400E1804E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D02BB9A1F4C27C400E1804E /* Main.storyboard */; };
+		2D02BB9E1F4C27C400E1804E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D02BB9D1F4C27C400E1804E /* Assets.xcassets */; };
+		2D02BBA11F4C27C400E1804E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D02BB9F1F4C27C400E1804E /* LaunchScreen.storyboard */; };
+		2D02BBAC1F4C27C400E1804E /* TWintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02BBAB1F4C27C400E1804E /* TWintsTests.m */; };
+		2D02BBB71F4C27C400E1804E /* TWintsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02BBB61F4C27C400E1804E /* TWintsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D02BBA81F4C27C400E1804E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D02BB861F4C27C400E1804E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02BB8D1F4C27C400E1804E;
+			remoteInfo = TWints;
+		};
+		2D02BBB31F4C27C400E1804E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D02BB861F4C27C400E1804E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02BB8D1F4C27C400E1804E;
+			remoteInfo = TWints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D02BB8E1F4C27C400E1804E /* TWints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02BB921F4C27C400E1804E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D02BB941F4C27C400E1804E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D02BB951F4C27C400E1804E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D02BB971F4C27C400E1804E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D02BB981F4C27C400E1804E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D02BB9B1F4C27C400E1804E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D02BB9D1F4C27C400E1804E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D02BBA01F4C27C400E1804E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D02BBA21F4C27C400E1804E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D02BBA71F4C27C400E1804E /* TWintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02BBAB1F4C27C400E1804E /* TWintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWintsTests.m; sourceTree = "<group>"; };
+		2D02BBAD1F4C27C400E1804E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D02BBB21F4C27C400E1804E /* TWintsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWintsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02BBB61F4C27C400E1804E /* TWintsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWintsUITests.m; sourceTree = "<group>"; };
+		2D02BBB81F4C27C400E1804E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D02BB8B1F4C27C400E1804E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02BBA41F4C27C400E1804E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02BBAF1F4C27C400E1804E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D02BB851F4C27C400E1804E = {
+			isa = PBXGroup;
+			children = (
+				2D02BB901F4C27C400E1804E /* TWints */,
+				2D02BBAA1F4C27C400E1804E /* TWintsTests */,
+				2D02BBB51F4C27C400E1804E /* TWintsUITests */,
+				2D02BB8F1F4C27C400E1804E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D02BB8F1F4C27C400E1804E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D02BB8E1F4C27C400E1804E /* TWints.app */,
+				2D02BBA71F4C27C400E1804E /* TWintsTests.xctest */,
+				2D02BBB21F4C27C400E1804E /* TWintsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D02BB901F4C27C400E1804E /* TWints */ = {
+			isa = PBXGroup;
+			children = (
+				2D02BB941F4C27C400E1804E /* AppDelegate.h */,
+				2D02BB951F4C27C400E1804E /* AppDelegate.m */,
+				2D02BB971F4C27C400E1804E /* ViewController.h */,
+				2D02BB981F4C27C400E1804E /* ViewController.m */,
+				2D02BB9A1F4C27C400E1804E /* Main.storyboard */,
+				2D02BB9D1F4C27C400E1804E /* Assets.xcassets */,
+				2D02BB9F1F4C27C400E1804E /* LaunchScreen.storyboard */,
+				2D02BBA21F4C27C400E1804E /* Info.plist */,
+				2D02BB911F4C27C400E1804E /* Supporting Files */,
+			);
+			path = TWints;
+			sourceTree = "<group>";
+		};
+		2D02BB911F4C27C400E1804E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D02BB921F4C27C400E1804E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D02BBAA1F4C27C400E1804E /* TWintsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D02BBAB1F4C27C400E1804E /* TWintsTests.m */,
+				2D02BBAD1F4C27C400E1804E /* Info.plist */,
+			);
+			path = TWintsTests;
+			sourceTree = "<group>";
+		};
+		2D02BBB51F4C27C400E1804E /* TWintsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D02BBB61F4C27C400E1804E /* TWintsUITests.m */,
+				2D02BBB81F4C27C400E1804E /* Info.plist */,
+			);
+			path = TWintsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D02BB8D1F4C27C400E1804E /* TWints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02BBBB1F4C27C400E1804E /* Build configuration list for PBXNativeTarget "TWints" */;
+			buildPhases = (
+				2D02BB8A1F4C27C400E1804E /* Sources */,
+				2D02BB8B1F4C27C400E1804E /* Frameworks */,
+				2D02BB8C1F4C27C400E1804E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWints;
+			productName = TWints;
+			productReference = 2D02BB8E1F4C27C400E1804E /* TWints.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02BBA61F4C27C400E1804E /* TWintsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02BBBE1F4C27C400E1804E /* Build configuration list for PBXNativeTarget "TWintsTests" */;
+			buildPhases = (
+				2D02BBA31F4C27C400E1804E /* Sources */,
+				2D02BBA41F4C27C400E1804E /* Frameworks */,
+				2D02BBA51F4C27C400E1804E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02BBA91F4C27C400E1804E /* PBXTargetDependency */,
+			);
+			name = TWintsTests;
+			productName = TWintsTests;
+			productReference = 2D02BBA71F4C27C400E1804E /* TWintsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D02BBB11F4C27C400E1804E /* TWintsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02BBC11F4C27C400E1804E /* Build configuration list for PBXNativeTarget "TWintsUITests" */;
+			buildPhases = (
+				2D02BBAE1F4C27C400E1804E /* Sources */,
+				2D02BBAF1F4C27C400E1804E /* Frameworks */,
+				2D02BBB01F4C27C400E1804E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02BBB41F4C27C400E1804E /* PBXTargetDependency */,
+			);
+			name = TWintsUITests;
+			productName = TWintsUITests;
+			productReference = 2D02BBB21F4C27C400E1804E /* TWintsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D02BB861F4C27C400E1804E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "杭州异人异想网络科技有限公司";
+				TargetAttributes = {
+					2D02BB8D1F4C27C400E1804E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2D02BBA61F4C27C400E1804E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02BB8D1F4C27C400E1804E;
+					};
+					2D02BBB11F4C27C400E1804E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02BB8D1F4C27C400E1804E;
+					};
+				};
+			};
+			buildConfigurationList = 2D02BB891F4C27C400E1804E /* Build configuration list for PBXProject "TWints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D02BB851F4C27C400E1804E;
+			productRefGroup = 2D02BB8F1F4C27C400E1804E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D02BB8D1F4C27C400E1804E /* TWints */,
+				2D02BBA61F4C27C400E1804E /* TWintsTests */,
+				2D02BBB11F4C27C400E1804E /* TWintsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D02BB8C1F4C27C400E1804E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02BBA11F4C27C400E1804E /* LaunchScreen.storyboard in Resources */,
+				2D02BB9E1F4C27C400E1804E /* Assets.xcassets in Resources */,
+				2D02BB9C1F4C27C400E1804E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02BBA51F4C27C400E1804E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02BBB01F4C27C400E1804E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D02BB8A1F4C27C400E1804E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02BB991F4C27C400E1804E /* ViewController.m in Sources */,
+				2D02BB961F4C27C400E1804E /* AppDelegate.m in Sources */,
+				2D02BB931F4C27C400E1804E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02BBA31F4C27C400E1804E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02BBAC1F4C27C400E1804E /* TWintsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02BBAE1F4C27C400E1804E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02BBB71F4C27C400E1804E /* TWintsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D02BBA91F4C27C400E1804E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02BB8D1F4C27C400E1804E /* TWints */;
+			targetProxy = 2D02BBA81F4C27C400E1804E /* PBXContainerItemProxy */;
+		};
+		2D02BBB41F4C27C400E1804E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02BB8D1F4C27C400E1804E /* TWints */;
+			targetProxy = 2D02BBB31F4C27C400E1804E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D02BB9A1F4C27C400E1804E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D02BB9B1F4C27C400E1804E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D02BB9F1F4C27C400E1804E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D02BBA01F4C27C400E1804E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D02BBB91F4C27C400E1804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D02BBBA1F4C27C400E1804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D02BBBC1F4C27C400E1804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TWints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxlc.TWints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D02BBBD1F4C27C400E1804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TWints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxlc.TWints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D02BBBF1F4C27C400E1804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TWintsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxlc.TWintsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWints.app/TWints";
+			};
+			name = Debug;
+		};
+		2D02BBC01F4C27C400E1804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TWintsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxlc.TWintsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWints.app/TWints";
+			};
+			name = Release;
+		};
+		2D02BBC21F4C27C400E1804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TWintsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxlc.TWintsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWints;
+			};
+			name = Debug;
+		};
+		2D02BBC31F4C27C400E1804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TWintsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxlc.TWintsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWints;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D02BB891F4C27C400E1804E /* Build configuration list for PBXProject "TWints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02BBB91F4C27C400E1804E /* Debug */,
+				2D02BBBA1F4C27C400E1804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02BBBB1F4C27C400E1804E /* Build configuration list for PBXNativeTarget "TWints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02BBBC1F4C27C400E1804E /* Debug */,
+				2D02BBBD1F4C27C400E1804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D02BBBE1F4C27C400E1804E /* Build configuration list for PBXNativeTarget "TWintsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02BBBF1F4C27C400E1804E /* Debug */,
+				2D02BBC01F4C27C400E1804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D02BBC11F4C27C400E1804E /* Build configuration list for PBXNativeTarget "TWintsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02BBC21F4C27C400E1804E /* Debug */,
+				2D02BBC31F4C27C400E1804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D02BB861F4C27C400E1804E /* Project object */;
+}
